@@ -2,8 +2,8 @@
 
 ## TODO
 
-- [ ] Make it deploy (vercel)
-- [ ] Scaffold basic ui with mock data
+- [x] Make it deploy (vercel)
+- [x] Scaffold basic ui with mock data
 - [ ] Actually set u a database (w/ vercel postgress)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ clerk)
@@ -13,3 +13,8 @@
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
+
+
+## Study Timeline
+- 0400
+- 2000
