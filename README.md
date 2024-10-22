@@ -5,7 +5,7 @@
 - [x] Make it deploy (vercel)
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
-- [ ] Actually set u a database (w/ vercel postgress)
+- [x] Actually set up a database (w/ vercel postgress)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ clerk)
 - [ ] Add image upload
@@ -19,3 +19,4 @@
 ## Study Timeline
 - 0400
 - 2000
+- 3400

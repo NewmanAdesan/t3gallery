@@ -1,6 +1,8 @@
 import { db } from "~/server/db";
 import { v4 as uuidv4 } from "uuid";
 
+export const dynamic = "force-dynamic";
+
 const mockURLs = [
   "https://utfs.io/f/0AyQcrm5slVHeMtEUdy0uGcq72jHkJIVMOryn6pLi8YdQtbh",
   "https://utfs.io/f/0AyQcrm5slVHCdESORNom9taA5jDIp1nzLNXOvHxQTwk7dJu",
@@ -17,7 +19,7 @@ const mockImages = mockURLs.map((url, index) => ({
 export default async function HomePage() {
 
   const posts = await db.query.posts.findMany();
-  console.log(posts)
+  // console.log(posts)  // this console.log would happen in the server
 
   return (
     <main className="">
