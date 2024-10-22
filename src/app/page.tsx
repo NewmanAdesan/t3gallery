@@ -1,7 +1,7 @@
 import { db } from "~/server/db";
 import { v4 as uuidv4 } from "uuid";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic"
 
 const mockURLs = [
   "https://utfs.io/f/0AyQcrm5slVHeMtEUdy0uGcq72jHkJIVMOryn6pLi8YdQtbh",
